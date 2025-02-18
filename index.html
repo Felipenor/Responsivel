@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Meu Site Responsivel</title>
+  <style>
+  *{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: jokerman;
+  padding: 20px;
+  background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  line-height: 1.6;
+}
+
+header{
+  background-color: dimgrey;
+  color: #00f2fe;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header h1{
+  margin-bottom: 10px;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hero{
+  background-color: #e1e1e1;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 10px 15px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content article{
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 15px;
+  margin: 10px;
+}
+
+footer{
+  background-color: dimgrey;
+  color: #00f2fe;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+/*Estilos para telas menores que 768px (tabletes e smartphones)*/
+@media (max-width:768px) {
+  nav ul li{
+    display: block;
+    margin: 10px 0;
+    background-color: aqua;
+  }
+  .content{
+    flex-direction: column;
+  }
+  .content article{
+    margin: 10px 0;
+  }
+
+}
+
+/*Estilos para telas menores que 480px (tabletes e smartphones)*/
+@media (max-width:480px) {
+  header h1{
+    font-size: 24px;
+    color: red;
+  }
+  
+  .hero h2{
+    font-size: 20px;
+    color: #764ba2;
+  }
+
+  .content article h3{
+    font-size: 18px;
+  }
+
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu Site Responsivel</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+      <section class="hero">
+        <h2>Bem-Vindo(a) ao Meu Site</h2>
+        <p>Este é um exemplo de site responsivel.</p>
+      </section>
+      <section class="content">
+        <article>
+          <h3>Parte 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe odio aliquam veritatis ducimus debitis laborum excepturi ea atque, facilis modi earum repellendus deleniti odit voluptate, quidem fugiat consequatur dolorem? Rem.</p>
+        <p>Nulla eaque illo vitae, expedita deleniti quos quod quam harum odit amet at eos inventore quis placeat repellat magnam laborum perspiciatis velit officia ab! Maiores voluptas vel vero nisi culpa!</p>
+        <p>Architecto odit ipsa molestias, necessitatibus perspiciatis eaque sapiente facilis explicabo rem nostrum accusamus unde repellat fugiat. Aliquam voluptate facilis exercitationem neque corrupti beatae rem esse, dicta corporis quia alias eaque.</p>
+        <p>Saepe modi ullam debitis aperiam tempore nesciunt, illum hic corporis rerum magnam perferendis beatae ea quibusdam! Voluptatum aperiam vero perspiciatis blanditiis dicta fugit quam quibusdam, nostrum iste nesciunt id iure?</p>
+        <p>Voluptatem officia numquam tempora eos nemo exercitationem maxime iusto voluptate, et esse sint est laudantium praesentium sunt minus aut, sit explicabo, veniam perspiciatis! Ab laborum libero at porro ducimus quas!</p>
+        <p>Quibusdam accusantium commodi, dicta tenetur illum alias qui ut et ea sed, voluptates corporis? Repudiandae molestias aliquid perspiciatis provident quas impedit sed natus, tenetur laudantium, velit quasi voluptatum nobis vitae.</p>
+        <p>Voluptas dolorem ipsa, earum quam sit minima, ullam quae commodi ex architecto nobis autem, sint iste vitae ab aperiam veniam harum tempore? Rerum nobis nesciunt, accusamus asperiores perspiciatis omnis necessitatibus?</p>
+        <p>Ab culpa quae quasi tempora temporibus et quia optio ex, a ratione eius dignissimos ad doloribus aliquam eligendi expedita! Enim eligendi blanditiis quis ducimus pariatur maiores. Sequi itaque deleniti porro?</p>
+        <p>Nemo aspernatur saepe voluptatum! Neque veritatis, cupiditate est dolores quia accusantium delectus maiores quam porro cumque optio voluptate, voluptatum vero beatae incidunt suscipit eveniet sapiente! Tempore veniam fuga ullam dolore!</p>
+        <p>Eaque quos quas atque, temporibus doloribus nemo quibusdam maxime tenetur obcaecati expedita libero ducimus impedit necessitatibus sunt velit ad ex rem suscipit earum at saepe nihil magni. Aut, rerum quae!</p>
+      </article>
+      <article>
+        <h3>Parte 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aliquam dolores sequi, quis provident aut voluptas quaerat suscipit quia numquam incidunt sed iusto enim ducimus? Odit ullam dolorum delectus a.</p>
+        <p>Provident necessitatibus culpa nulla autem voluptatem vero dolores reprehenderit tempore iusto! Maiores cumque sit quo. Sit perferendis amet atque vel modi natus minima porro, quasi, aperiam consequuntur, quaerat vero placeat.</p>
+        <p>Quas libero ratione distinctio ea nam deserunt cum, similique neque nemo consectetur corrupti ab autem omnis excepturi cupiditate fuga voluptates est nobis, unde adipisci asperiores illo nesciunt? Praesentium, ex neque!</p>
+        <p>Quod necessitatibus eos ratione laborum suscipit aliquam provident, aliquid voluptatibus blanditiis consequatur modi dolor natus magnam enim non nihil eveniet vero, incidunt officia tempore ut porro fuga eum minus. Nulla?</p>
+        <p>Laboriosam eaque ipsum ad reprehenderit, laborum aut error. Deserunt in dolore assumenda ullam officia dolores tenetur sint, autem aliquam perspiciatis quo dolorum libero obcaecati molestiae minus unde accusantium. Dignissimos, quibusdam.</p>
+        <p>Vitae sit, reprehenderit ipsa ab porro id molestiae, dolore modi dolores consequuntur nostrum illo! In distinctio perferendis dolores. Temporibus, ipsa obcaecati assumenda nihil blanditiis molestias debitis nostrum inventore sunt! Voluptatem.</p>
+        <p>Accusantium rem officia delectus commodi molestiae? Perferendis nisi cum, dolor illo esse porro dolorum fugit odio tempore exercitationem sit in deleniti, consequuntur ipsa deserunt delectus? Doloremque quaerat quisquam odio quae.</p>
+        <p>Architecto harum sequi vero, reprehenderit quisquam quas commodi corrupti facere libero ex cum quo, natus quaerat expedita excepturi accusamus dolore vel, error optio at quibusdam sunt totam culpa! Illum, repellendus.</p>
+        <p>Asperiores, omnis voluptatum repellat officia in ut quam aliquam possimus quidem nemo illo aspernatur laudantium voluptate maiores harum dolores. Molestiae a sint recusandae illo similique odio pariatur non ullam ex.</p>
+        <p>Saepe possimus ullam quas voluptate. Ex iste eveniet illo. Expedita, rerum. Deserunt quisquam, corrupti asperiores nemo illo tempora! Quis repellendus error illo eveniet delectus magni pariatur fuga recusandae quia facere?</p>
+      </article>
+      </section>
+
+
+    </main>
+    <footer>
+      <p>&copy; 2025 Meu site Responsivel</p>
+    </footer>
+</body>
+</html>
